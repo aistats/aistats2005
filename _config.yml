@@ -1,0 +1,64 @@
+
+# Site settings
+title: Artificial Intelligence and Statistics Conference
+description: > # this means to ignore newlines until "baseurl:"
+  This is the website of the AISTATS conference.
+baseurl: "/aistats2005" # the subpath of your site, e.g. /blog/
+url: "http://www.aistats.org" # the base hostname & protocol for your site
+#twitter_username: aistat
+github_username:  aistats
+author:
+  name: AISTATS
+  email:
+comments: false
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: aistats
+
+ghub:
+  edit: true
+  repository: aistats2005
+
+banner: banner.jpg
+
+# Build settings
+markdown: kramdown
+
+conference:
+  draft: false # set to True if the programme is draft only.
+  image: main.jpg
+  hide_tentative: true
+  proceedings:
+    url: http://www.gatsby.ucl.ac.uk/aistats/proceedings.htm
+    show: true
+  room: 
+  venue: The Savanah Hotel
+  venue_url: https://www.savannahbarbados.com/
+  location: Bridgetown, Barbados
+  full_name: Artificial Intelligence and Statistics
+  short_name: AISTATS
+  name: Artificial Intelligence and Statistics
+  year: 2005
+  instance: 10th
+  styling: International Conference on
+  dates:
+  - 2005-01-06
+  - 2005-01-08
+  chairs:
+  - type: Program Chairs
+    people:
+    - family: Ghahramani
+      given: Zoubin 
+      institute: University College London
+      url: 
+    - family: Cowell
+      given: Robert
+      institute: City University
+      url: 
+# change encoding for the generated output files to utf-8
+encoding: utf-8
+
+
