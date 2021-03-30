@@ -32,7 +32,7 @@ conference:
   image: main.jpg
   hide_tentative: true
   proceedings:
-    url: http://www.gatsby.ucl.ac.uk/aistats/proceedings.htm
+    url: http://proceedings.mlr.press/r5/
     show: true
   room: 
   venue: The Savanah Hotel
