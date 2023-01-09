@@ -1,9 +1,8 @@
-
 draft: false # set to True if the programme is draft only.
 image: main.jpg
 hide_tentative: true
 proceedings:
-  url: http://www.gatsby.ucl.ac.uk/aistats/proceedings.htm
+  url: http://proceedings.mlr.press/r5/
   show: true
 room: 
 venue: The Savanah Hotel
@@ -17,6 +16,7 @@ instance: 10th
 styling: International Conference on
 dates:
 - 2005-01-06
+- 2005-01-07
 - 2005-01-08
 chairs:
 - type: Program Chairs
