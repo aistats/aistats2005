@@ -15,7 +15,7 @@ plugins:
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-remote-theme
-remote_theme: lawrennd/proceedings
+remote_theme: aistats/jekyll-theme
 style: aistats
 
 ghub:
@@ -27,37 +27,6 @@ banner: banner.jpg
 # Build settings
 markdown: kramdown
 
-conference:
-  draft: false # set to True if the programme is draft only.
-  image: main.jpg
-  hide_tentative: true
-  proceedings:
-    url: http://www.gatsby.ucl.ac.uk/aistats/proceedings.htm
-    show: true
-  room: 
-  venue: The Savanah Hotel
-  venue_url: https://www.savannahbarbados.com/
-  location: Bridgetown, Barbados
-  full_name: Artificial Intelligence and Statistics
-  short_name: AISTATS
-  name: Artificial Intelligence and Statistics
-  year: 2005
-  instance: 10th
-  styling: International Conference on
-  dates:
-  - 2005-01-06
-  - 2005-01-08
-  chairs:
-  - type: Program Chairs
-    people:
-    - family: Ghahramani
-      given: Zoubin 
-      institute: University College London
-      url: 
-    - family: Cowell
-      given: Robert
-      institute: City University
-      url: 
 # change encoding for the generated output files to utf-8
 encoding: utf-8
 
